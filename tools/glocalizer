@@ -26,7 +26,7 @@ import gtk
 import gtk.glade  
 import gobject
 from map.mapDrawing import *
-from gtkThread import *
+from gloclib.gtkThread import *
 from map.mapServices import MapServ
 from map.mapConf import MapConf
 from map.mapConst import *

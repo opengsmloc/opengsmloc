@@ -15,9 +15,9 @@ import os
 import sys
 import gtk
 
-import lrucache
+from gloclib import  lrucache
 import mapPixbuf
-import fileUtils
+from gloclib import fileUtils
 
 from threading import Lock
 from mapConst import *

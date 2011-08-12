@@ -4,9 +4,9 @@
 import os
 import gtk
 import sys
-import fileUtils
+from gloclib import fileUtils
 import tilesRepoFS
-import openanything
+from gloclib import openanything
 
 import mapServers.googleMaps as googleMaps
 import mapServers.openStreetMaps as openStreetMaps
