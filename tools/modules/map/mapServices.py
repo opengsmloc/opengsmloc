@@ -8,14 +8,14 @@ from gloclib import fileUtils
 import tilesRepoFS
 from gloclib import openanything
 
-import mapServers.googleMaps as googleMaps
-import mapServers.openStreetMaps as openStreetMaps
-import mapServers.cloudMade as cloudMade
-import mapServers.yahoo as yahoo
-import mapServers.informationFreeway as informationFreeway
-import mapServers.openCycleMap as openCycleMap
-import mapServers.googleMapMaker as googleMapMaker
-import mapServers.virtualEarth as virtualEarth
+from map.mapServers import googleMaps
+import map.mapServers.openStreetMaps as openStreetMaps
+import map.mapServers.cloudMade as cloudMade
+import map.mapServers.yahoo as yahoo
+import map.mapServers.informationFreeway as informationFreeway
+import map.mapServers.openCycleMap as openCycleMap
+import map.mapServers.googleMapMaker as googleMapMaker
+import map.mapServers.virtualEarth as virtualEarth
 
 from mapConst import *
 from threading import Timer
