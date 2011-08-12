@@ -32,7 +32,7 @@ from map.mapConf import MapConf
 from map.mapConst import *
 from map.mapDownloader import MapDownloader
 import map.mapUtils as mapUtils
-import glocdb
+import gloclib.glocdb
 from map.mapOverlay import MapOverlay, MapOverlayListModel
 from CellRendererButton import CellRendererButton
 import itertools
