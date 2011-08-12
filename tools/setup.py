@@ -16,4 +16,4 @@ setup(name = 'opengsmloc tools',
       url = 'http://opengsmloc.org',
       scripts = ['glocalizer'],
       package_dir = {'': 'modules'},
-      packages = ['map'])
+      packages = ['map', 'gloclib'])
