@@ -24,7 +24,7 @@
 
 import os
 import ConfigParser
-import fileUtils
+from gloclib import fileUtils
 from mapConst import *
 from mapUtils import str_to_tuple
 

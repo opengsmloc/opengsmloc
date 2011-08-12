@@ -29,8 +29,7 @@ from threading import Thread
 from Queue import Queue
 from traceback import print_exc
 
-import fileUtils
-import mapUtils
+from map import mapUtils
 from mapConst import *
 from math import floor,ceil
 

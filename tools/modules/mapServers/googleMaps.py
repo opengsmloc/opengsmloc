@@ -3,7 +3,8 @@
 
 import re
 import urllib
-import openanything as openanything
+import gloclib.openanything as openanything
+
 from map.mapConst import MAP_MAX_ZOOM_LEVEL, MAP_MIN_ZOOM_LEVEL
 
 known_layers = {}

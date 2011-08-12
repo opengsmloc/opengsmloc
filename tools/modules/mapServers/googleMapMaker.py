@@ -2,7 +2,7 @@
 # All the interaction with Google Map Maker
 
 import re
-import openanything
+import gloclib.openanything as openanything
 from map.mapConst import MAP_MAX_ZOOM_LEVEL
 
 known_layers = {}
