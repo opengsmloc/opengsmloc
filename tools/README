@@ -4,7 +4,7 @@ Coming soon...
 Prerequisites
 -------------
 
-apt-get install python-gtk2 python-glade2
+apt-get install python-gtk2 python-glade2 python-psycopg2
 
 
 Installation
