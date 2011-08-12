@@ -20,6 +20,8 @@
 ## this program; if not,  write to the Free Software Foundation,  Inc.,  59 Temple
 ## Place,  Suite 330,  Boston,  MA  02111 - 1307  USA
 
+import sys
+import os
 import pygtk  
 pygtk.require("2.0")  
 import gtk
@@ -129,7 +131,7 @@ class PyCairo:
         @version: 1.0
         """
         
-        self.wTree = gtk.glade.XML("glocalizer.glade", "MainWindow")  
+        self.wTree = gtk.glade.XML(os.path.join(sys.prefix, "gladefiles", "glocalizer.glade"), "MainWindow")  
 
         self.wTree.signal_autoconnect({
             "on_quit_activate" : self.closewindow,
