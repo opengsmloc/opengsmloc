@@ -24,14 +24,14 @@
 ## this program; if not,  write to the Free Software Foundation,  Inc.,  59 Temple
 ## Place,  Suite 330,  Boston,  MA  02111 - 1307  USA
 
-import algorithms as algorithms
-import mapUtils as mapUtils
+import gloclib.algorithms as algorithms
+import map.mapUtils as mapUtils
 from mapConst import *
 import cairo
 from math import pi
 import pygtk
 import gtk
-from CellRendererButton import CellRendererButton
+from gloclib.CellRendererButton import CellRendererButton
 
 class MapOverlay:
     """ 

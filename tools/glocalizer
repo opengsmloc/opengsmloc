@@ -34,7 +34,7 @@ from map.mapDownloader import MapDownloader
 import map.mapUtils as mapUtils
 import gloclib.glocdb
 from map.mapOverlay import MapOverlay, MapOverlayListModel
-from CellRendererButton import CellRendererButton
+from gloclib.CellRendererButton import CellRendererButton
 import itertools
 import pickle
 
