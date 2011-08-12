@@ -11,3 +11,13 @@ Installation
 ------------
 
 python setup.py install
+
+
+Modules
+-------
+
+The following modules exits:
+- map: stuff used within the glocalizer map rendering software
+TODO: Describe each file in the module
+- gloclib: more general stuff used for more than one tool
+TODO: Describe each file in the module
