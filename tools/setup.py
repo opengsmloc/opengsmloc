@@ -14,4 +14,6 @@ setup(name = 'opengsmloc tools',
       author = 'Brendan Johan Lee',
       author_email = 'brendan@vanntett.net',
       url = 'http://opengsmloc.org',
-      scripts = ['glocalizer'])
+      scripts = ['glocalizer'],
+      package_dir = {'': 'modules'},
+      packages = ['map'])
